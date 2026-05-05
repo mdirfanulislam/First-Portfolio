@@ -1,0 +1,293 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Share style */
+.common-color {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #FD6E0A;
+}
+
+.btn-hover2 {
+    background-color: white;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.btn-hover2:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greet {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.banner-image {
+    width: 584px;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* About Styles */
+.about {
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    padding: 100px 150px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    color: #757575;
+}
+
+.item-des {
+    color: #474747;
+    font-weight: bold;
+}
+
+/* skills styles */
+.sec-des {
+    padding: 0px 150px 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* abcd */
+
+#skills .skills-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card {
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+}
+
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
+
+#resume .resume-container {
+
+    margin-top: 113px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container hr {
+    margin: 30px 0
+}
+
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* footer */
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 20px 0px;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 116px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575
+}
